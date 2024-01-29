@@ -1,7 +1,7 @@
 {
-  "name": "ionic-api-test",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+	"name": "ionic-api-example",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "angular"
 }

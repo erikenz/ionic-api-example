@@ -1,3 +1,1300 @@
 {
-  "typescript.preferences.autoImportFileExcludePatterns": ["@ionic/angular/common", "@ionic/angular/standalone"]
+	"typescript.preferences.autoImportFileExcludePatterns": [
+		"@ionic/angular/common",
+		"@ionic/angular/standalone"
+	],
+	"whichkey.sortOrder": "none",
+	"whichkey.bindings": [
+		{
+			"args": "$",
+			"type": "command",
+			"key": "$",
+			"command": "vscode-neovim.send",
+			"name": "End of line"
+		},
+		{
+			"args": "%",
+			"type": "command",
+			"key": "%",
+			"command": "vscode-neovim.send",
+			"name": "Matching character: '()', '[]', '{}'"
+		},
+		{
+			"args": "&",
+			"type": "command",
+			"key": "&",
+			"command": "vscode-neovim.send",
+			"name": "Repeat :s (Substitute regular expression)"
+		},
+		{
+			"args": ",",
+			"type": "command",
+			"key": ",",
+			"command": "vscode-neovim.send",
+			"name": "Go to previous match"
+		},
+		{
+			"args": "0",
+			"type": "command",
+			"key": "0",
+			"command": "vscode-neovim.send",
+			"name": "Start of line"
+		},
+		{
+			"args": ";",
+			"type": "command",
+			"key": ";",
+			"command": "vscode-neovim.send",
+			"name": "Go to next match"
+		},
+		{
+			"args": "^",
+			"type": "command",
+			"key": "^",
+			"command": "vscode-neovim.send",
+			"name": "Start of line (non-blank)"
+		},
+		{
+			"args": "{",
+			"type": "command",
+			"key": "{",
+			"command": "vscode-neovim.send",
+			"name": "Previous empty line"
+		},
+		{
+			"args": "}",
+			"type": "command",
+			"key": "}",
+			"command": "vscode-neovim.send",
+			"name": "Next empty line"
+		},
+		{
+			"args": "<C-/>",
+			"type": "command",
+			"key": "C-/",
+			"command": "vscode-neovim.send",
+			"name": "Terminal (root dir)"
+		},
+		{
+			"args": "<C-B>",
+			"type": "command",
+			"key": "C-b",
+			"command": "vscode-neovim.send",
+			"name": "Scroll backward"
+		},
+		{
+			"args": "<C-Down>",
+			"type": "command",
+			"key": "C-down",
+			"command": "vscode-neovim.send",
+			"name": "Decrease window height"
+		},
+		{
+			"args": "<C-F>",
+			"type": "command",
+			"key": "C-f",
+			"command": "vscode-neovim.send",
+			"name": "Scroll forward"
+		},
+		{
+			"args": "<C-H>",
+			"type": "command",
+			"key": "C-h",
+			"command": "vscode-neovim.send",
+			"name": "Go to left window"
+		},
+		{
+			"args": "<C-J>",
+			"type": "command",
+			"key": "C-j",
+			"command": "vscode-neovim.send",
+			"name": "Go to lower window"
+		},
+		{
+			"args": "<C-K>",
+			"type": "command",
+			"key": "C-k",
+			"command": "vscode-neovim.send",
+			"name": "Go to upper window"
+		},
+		{
+			"args": "<C-L>",
+			"type": "command",
+			"key": "C-l",
+			"command": "vscode-neovim.send",
+			"name": "Go to right window"
+		},
+		{
+			"args": "<C-Left>",
+			"type": "command",
+			"key": "C-left",
+			"command": "vscode-neovim.send",
+			"name": "Decrease window width"
+		},
+		{
+			"args": "<C-Right>",
+			"type": "command",
+			"key": "C-right",
+			"command": "vscode-neovim.send",
+			"name": "Increase window width"
+		},
+		{
+			"args": "<C-S>",
+			"type": "command",
+			"key": "C-s",
+			"command": "vscode-neovim.send",
+			"name": "Save file"
+		},
+		{
+			"args": "<C-Space>",
+			"type": "command",
+			"key": "C-space",
+			"command": "vscode-neovim.send",
+			"name": "Start selecting nodes with nvim-treesitter?"
+		},
+		{
+			"args": "<C-Up>",
+			"type": "command",
+			"key": "C-up",
+			"command": "vscode-neovim.send",
+			"name": "Increase window height"
+		},
+		{
+			"args": "Down",
+			"type": "command",
+			"key": "Down",
+			"command": "vscode-neovim.send",
+			"name": "v:count == 0 ? 'gj' : 'j'"
+		},
+		{
+			"args": "<M-j>",
+			"type": "command",
+			"key": "A-j",
+			"command": "vscode-neovim.send",
+			"name": "Move down"
+		},
+		{
+			"args": "<M-k>",
+			"type": "command",
+			"key": "A-k",
+			"command": "vscode-neovim.send",
+			"name": "Move up"
+		},
+		{
+			"args": "<M-n>",
+			"type": "command",
+			"key": "A-n",
+			"command": "vscode-neovim.send",
+			"name": "Move to next reference"
+		},
+		{
+			"args": "<M-p>",
+			"type": "command",
+			"key": "A-p",
+			"command": "vscode-neovim.send",
+			"name": "Move to previous reference"
+		},
+		{
+			"args": "Up",
+			"type": "command",
+			"key": "Up",
+			"command": "vscode-neovim.send",
+			"name": "v:count == 0 ? 'gk' : 'k'"
+		},
+		{
+			"args": "b",
+			"type": "command",
+			"key": "b",
+			"command": "vscode-neovim.send",
+			"name": "Previous word"
+		},
+		{
+			"args": "e",
+			"type": "command",
+			"key": "e",
+			"command": "vscode-neovim.send",
+			"name": "Next end of word"
+		},
+		{
+			"args": "F",
+			"type": "command",
+			"key": "F",
+			"command": "vscode-neovim.send",
+			"name": "Move to previous char"
+		},
+		{
+			"args": "f",
+			"type": "command",
+			"key": "f",
+			"command": "vscode-neovim.send",
+			"name": "Move to next char"
+		},
+		{
+			"args": "G",
+			"type": "command",
+			"key": "G",
+			"command": "vscode-neovim.send",
+			"name": "Last line"
+		},
+		{
+			"args": "H",
+			"type": "command",
+			"key": "H",
+			"command": "vscode-neovim.send",
+			"name": "Prev buffer"
+		},
+		{
+			"args": "h",
+			"type": "command",
+			"key": "h",
+			"command": "vscode-neovim.send",
+			"name": "Left"
+		},
+		{
+			"args": "j",
+			"type": "command",
+			"key": "j",
+			"command": "vscode-neovim.send",
+			"name": "Down"
+		},
+		{
+			"args": "K",
+			"type": "command",
+			"key": "K",
+			"command": "vscode-neovim.send",
+			"name": "Hover"
+		},
+		{
+			"args": "k",
+			"type": "command",
+			"key": "k",
+			"command": "vscode-neovim.send",
+			"name": "Up"
+		},
+		{
+			"args": "L",
+			"type": "command",
+			"key": "L",
+			"command": "vscode-neovim.send",
+			"name": "Next buffer"
+		},
+		{
+			"args": "l",
+			"type": "command",
+			"key": "l",
+			"command": "vscode-neovim.send",
+			"name": "Right"
+		},
+		{
+			"args": "M",
+			"type": "command",
+			"key": "M",
+			"command": "vscode-neovim.send",
+			"name": "Middle line of window"
+		},
+		{
+			"args": "N",
+			"type": "command",
+			"key": "N",
+			"command": "vscode-neovim.send",
+			"name": "Prev search result"
+		},
+		{
+			"args": "n",
+			"type": "command",
+			"key": "n",
+			"command": "vscode-neovim.send",
+			"name": "Next search result"
+		},
+		{
+			"args": "p",
+			"type": "command",
+			"key": "p",
+			"command": "vscode-neovim.send",
+			"name": "Put yanked text after cursor"
+		},
+		{
+			"args": "P",
+			"type": "command",
+			"key": "P",
+			"command": "vscode-neovim.send",
+			"name": "Put yanked text before cursor"
+		},
+		{
+			"args": "s",
+			"type": "command",
+			"key": "s",
+			"command": "vscode-neovim.send",
+			"name": "Flash"
+		},
+		{
+			"args": "S",
+			"type": "command",
+			"key": "S",
+			"command": "vscode-neovim.send",
+			"name": "Flash Treesitter"
+		},
+		{
+			"args": "t",
+			"type": "command",
+			"key": "t",
+			"command": "vscode-neovim.send",
+			"name": "Move before next char"
+		},
+		{
+			"args": "T",
+			"type": "command",
+			"key": "T",
+			"command": "vscode-neovim.send",
+			"name": "Move before previous char"
+		},
+		{
+			"args": "w",
+			"type": "command",
+			"key": "w",
+			"command": "vscode-neovim.send",
+			"name": "Next word"
+		},
+		{
+			"args": "Y",
+			"type": "command",
+			"key": "Y",
+			"command": "vscode-neovim.send",
+			"name": "Nvim builtin"
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Filter through external program",
+			"key": "!"
+		},
+		{
+			"bindings": [
+				{
+					"args": "<$",
+					"type": "command",
+					"key": "$",
+					"command": "vscode-neovim.send",
+					"name": "End of line"
+				},
+				{
+					"args": "<%",
+					"type": "command",
+					"key": "%",
+					"command": "vscode-neovim.send",
+					"name": "Matching character: '()', '[]', '{}'"
+				},
+				{
+					"args": "<,",
+					"type": "command",
+					"key": ",",
+					"command": "vscode-neovim.send",
+					"name": "Go to previous match"
+				},
+				{
+					"args": "<0",
+					"type": "command",
+					"key": "0",
+					"command": "vscode-neovim.send",
+					"name": "Start of line"
+				},
+				{
+					"args": "<;",
+					"type": "command",
+					"key": ";",
+					"command": "vscode-neovim.send",
+					"name": "Go to next match"
+				},
+				{
+					"args": "<^",
+					"type": "command",
+					"key": "^",
+					"command": "vscode-neovim.send",
+					"name": "Start of line (non-blank)"
+				},
+				{
+					"args": "<{",
+					"type": "command",
+					"key": "{",
+					"command": "vscode-neovim.send",
+					"name": "Previous empty line"
+				},
+				{
+					"args": "<}",
+					"type": "command",
+					"key": "}",
+					"command": "vscode-neovim.send",
+					"name": "Next empty line"
+				},
+				{
+					"args": "<<M-i>",
+					"type": "command",
+					"key": "A-i",
+					"command": "vscode-neovim.send",
+					"name": ""
+				},
+				{
+					"args": "<b",
+					"type": "command",
+					"key": "b",
+					"command": "vscode-neovim.send",
+					"name": "Previous word"
+				},
+				{
+					"args": "<e",
+					"type": "command",
+					"key": "e",
+					"command": "vscode-neovim.send",
+					"name": "Next end of word"
+				},
+				{
+					"args": "<f",
+					"type": "command",
+					"key": "f",
+					"command": "vscode-neovim.send",
+					"name": "Move to next char"
+				},
+				{
+					"args": "<F",
+					"type": "command",
+					"key": "F",
+					"command": "vscode-neovim.send",
+					"name": "Move to previous char"
+				},
+				{
+					"args": "<G",
+					"type": "command",
+					"key": "G",
+					"command": "vscode-neovim.send",
+					"name": "Last line"
+				},
+				{
+					"args": "<h",
+					"type": "command",
+					"key": "h",
+					"command": "vscode-neovim.send",
+					"name": "Left"
+				},
+				{
+					"args": "<j",
+					"type": "command",
+					"key": "j",
+					"command": "vscode-neovim.send",
+					"name": "Down"
+				},
+				{
+					"args": "<k",
+					"type": "command",
+					"key": "k",
+					"command": "vscode-neovim.send",
+					"name": "Up"
+				},
+				{
+					"args": "<l",
+					"type": "command",
+					"key": "l",
+					"command": "vscode-neovim.send",
+					"name": "Right"
+				},
+				{
+					"args": "<N",
+					"type": "command",
+					"key": "N",
+					"command": "vscode-neovim.send",
+					"name": "Prev search result"
+				},
+				{
+					"args": "<n",
+					"type": "command",
+					"key": "n",
+					"command": "vscode-neovim.send",
+					"name": "Next search result"
+				},
+				{
+					"args": "<p",
+					"type": "command",
+					"key": "p",
+					"command": "vscode-neovim.send",
+					"name": "Put and indent left"
+				},
+				{
+					"args": "<P",
+					"type": "command",
+					"key": "P",
+					"command": "vscode-neovim.send",
+					"name": "Put before and indent left"
+				},
+				{
+					"args": "<r",
+					"type": "command",
+					"key": "r",
+					"command": "vscode-neovim.send",
+					"name": "Remote flash"
+				},
+				{
+					"args": "<R",
+					"type": "command",
+					"key": "R",
+					"command": "vscode-neovim.send",
+					"name": "Treesitter Flash"
+				},
+				{
+					"args": "<s",
+					"type": "command",
+					"key": "s",
+					"command": "vscode-neovim.send",
+					"name": "Flash"
+				},
+				{
+					"args": "<S",
+					"type": "command",
+					"key": "S",
+					"command": "vscode-neovim.send",
+					"name": "Flash Treesitter"
+				},
+				{
+					"args": "<t",
+					"type": "command",
+					"key": "t",
+					"command": "vscode-neovim.send",
+					"name": "Move before next char"
+				},
+				{
+					"args": "<T",
+					"type": "command",
+					"key": "T",
+					"command": "vscode-neovim.send",
+					"name": "Move before previous char"
+				},
+				{
+					"args": "<w",
+					"type": "command",
+					"key": "w",
+					"command": "vscode-neovim.send",
+					"name": "Next word"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+prefix",
+					"key": "["
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+prefix",
+					"key": "]"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+Around textobject",
+					"key": "a"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+prefix",
+					"key": "g"
+				},
+				{
+					"args": "<i",
+					"type": "command",
+					"key": "i",
+					"command": "vscode-neovim.send",
+					"name": "+Inside textobject"
+				}
+			],
+			"type": "bindings",
+			"name": "+Indent left",
+			"key": "<"
+		},
+		{
+			"bindings": [
+				{
+					"args": "=P",
+					"type": "command",
+					"key": "P",
+					"command": "vscode-neovim.send",
+					"name": "Put before applying a filter"
+				},
+				{
+					"args": "=p",
+					"type": "command",
+					"key": "p",
+					"command": "vscode-neovim.send",
+					"name": "Put after applying a filter"
+				}
+			],
+			"type": "bindings",
+			"name": "+prefix",
+			"key": "="
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Indent right",
+			"key": ">"
+		},
+		{
+			"bindings": [
+				{
+					"args": "[b",
+					"type": "command",
+					"key": "b",
+					"command": "vscode-neovim.send",
+					"name": "Prev Buffer"
+				}
+			],
+			"type": "bindings",
+			"name": "+prev",
+			"key": "["
+		},
+		{
+			"bindings": [
+				{
+					"args": "]b",
+					"type": "command",
+					"key": "b",
+					"command": "vscode-neovim.send",
+					"name": "Next Buffer"
+				}
+			],
+			"type": "bindings",
+			"name": "+next",
+			"key": "]"
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+window",
+			"key": "C-w"
+		},
+		{
+			"bindings": [
+				{
+					"args": " ,",
+					"type": "command",
+					"key": ",",
+					"command": "vscode-neovim.send",
+					"name": "Switch Buffer"
+				},
+				{
+					"args": " -",
+					"type": "command",
+					"key": "-",
+					"command": "vscode-neovim.send",
+					"name": "Split window below"
+				},
+				{
+					"args": " /",
+					"type": "command",
+					"key": "/",
+					"command": "vscode-neovim.send",
+					"name": "Grep (root dir)"
+				},
+				{
+					"args": " :",
+					"type": "command",
+					"key": ":",
+					"command": "vscode-neovim.send",
+					"name": "Command history"
+				},
+				{
+					"args": " `",
+					"type": "command",
+					"key": "`",
+					"command": "vscode-neovim.send",
+					"name": "Switch to Other Buffer"
+				},
+				{
+					"args": " |",
+					"type": "command",
+					"key": "|",
+					"command": "vscode-neovim.send",
+					"name": "Split window right"
+				},
+				{
+					"args": "  ",
+					"type": "command",
+					"key": " ",
+					"command": "vscode-neovim.send",
+					"name": "Find files (root dir)"
+				},
+				{
+					"args": " e",
+					"type": "command",
+					"key": "e",
+					"command": "vscode-neovim.send",
+					"name": "Explorer NeoTree (root dir)"
+				},
+				{
+					"args": " E",
+					"type": "command",
+					"key": "E",
+					"command": "vscode-neovim.send",
+					"name": "Explorer NeoTree (cwd)"
+				},
+				{
+					"args": " K",
+					"type": "command",
+					"key": "K",
+					"command": "vscode-neovim.send",
+					"name": "Keywordprg"
+				},
+				{
+					"args": " l",
+					"type": "command",
+					"key": "l",
+					"command": "vscode-neovim.send",
+					"name": "Lazy"
+				},
+				{
+					"args": " L",
+					"type": "command",
+					"key": "L",
+					"command": "vscode-neovim.send",
+					"name": "Lazyvim Changelog"
+				},
+				{
+					"args": " p",
+					"type": "command",
+					"key": "p",
+					"command": "vscode-neovim.send",
+					"name": "Open Yank History"
+				},
+				{
+					"bindings": [
+						{
+							"args": " \tl",
+							"type": "command",
+							"key": "l",
+							"command": "vscode-neovim.send",
+							"name": "Last tab"
+						},
+						{
+							"args": " \tf",
+							"type": "command",
+							"key": "f",
+							"command": "vscode-neovim.send",
+							"name": "First tab"
+						},
+						{
+							"args": " \t\t",
+							"type": "command",
+							"key": "\t",
+							"command": "vscode-neovim.send",
+							"name": "New tab"
+						},
+						{
+							"args": " \t]",
+							"type": "command",
+							"key": "]",
+							"command": "vscode-neovim.send",
+							"name": "Next tab"
+						},
+						{
+							"args": " \td",
+							"type": "command",
+							"key": "d",
+							"command": "vscode-neovim.send",
+							"name": "Close tab"
+						},
+						{
+							"args": " \t[",
+							"type": "command",
+							"key": "[",
+							"command": "vscode-neovim.send",
+							"name": "Previous tab"
+						}
+					],
+					"type": "bindings",
+					"name": "+tabs",
+					"key": "\t"
+				},
+				{
+					"bindings": [
+						{
+							"args": " bb",
+							"type": "command",
+							"key": "b",
+							"command": "vscode-neovim.send",
+							"name": "Switch to Other Buffer"
+						},
+						{
+							"args": " bD",
+							"type": "command",
+							"key": "D",
+							"command": "vscode-neovim.send",
+							"name": "Delete Buffer (Force)"
+						},
+						{
+							"args": " bd",
+							"type": "command",
+							"key": "d",
+							"command": "vscode-neovim.send",
+							"name": "Delete Buffer"
+						},
+						{
+							"args": " be",
+							"type": "command",
+							"key": "e",
+							"command": "vscode-neovim.send",
+							"name": "Buffer explorer"
+						},
+						{
+							"args": " bl",
+							"type": "command",
+							"key": "l",
+							"command": "vscode-neovim.send",
+							"name": "Delete buffers to the left"
+						},
+						{
+							"args": " bo",
+							"type": "command",
+							"key": "o",
+							"command": "vscode-neovim.send",
+							"name": "Delete other buffers"
+						},
+						{
+							"args": " bp",
+							"type": "command",
+							"key": "p",
+							"command": "vscode-neovim.send",
+							"name": "Delete non-pinned buffers"
+						},
+						{
+							"args": " bP",
+							"type": "command",
+							"key": "P",
+							"command": "vscode-neovim.send",
+							"name": "Toggle pin"
+						},
+						{
+							"args": " br",
+							"type": "command",
+							"key": "r",
+							"command": "vscode-neovim.send",
+							"name": "Delete buffers to the right"
+						}
+					],
+					"type": "bindings",
+					"name": "+buffer",
+					"key": "b"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+code",
+					"key": "c"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+file/find",
+					"key": "f"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+git",
+					"key": "g"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+quit/session",
+					"key": "q"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+search",
+					"key": "s"
+				},
+				{
+					"bindings": [
+						{
+							"args": " ub",
+							"type": "command",
+							"key": "b",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Background"
+						},
+						{
+							"args": " ua",
+							"type": "command",
+							"key": "a",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Activity Bar"
+						},
+						{
+							"args": " uB",
+							"type": "command",
+							"key": "B",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Side Bar Visibility"
+						},
+						{
+							"args": " uC",
+							"type": "command",
+							"key": "C",
+							"command": "vscode-neovim.send",
+							"name": "Colorscheme with preview"
+						},
+						{
+							"args": " uc",
+							"type": "command",
+							"key": "c",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Conceal"
+						},
+						{
+							"args": " ud",
+							"type": "command",
+							"key": "d",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Diagnostics"
+						},
+						{
+							"args": " uF",
+							"type": "command",
+							"key": "F",
+							"command": "vscode-neovim.send",
+							"name": "Toggle auto format (buffer)"
+						},
+						{
+							"args": " uf",
+							"type": "command",
+							"key": "f",
+							"command": "vscode-neovim.send",
+							"name": "Toggle auto format (global)"
+						},
+						{
+							"args": " uh",
+							"type": "command",
+							"key": "h",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Inlay Hints"
+						},
+						{
+							"args": " ui",
+							"type": "command",
+							"key": "i",
+							"command": "vscode-neovim.send",
+							"name": "Inspect Pos"
+						},
+						{
+							"args": " uL",
+							"type": "command",
+							"key": "L",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Relative Line Numbers"
+						},
+						{
+							"args": " ul",
+							"type": "command",
+							"key": "l",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Line Numbers"
+						},
+						{
+							"args": " uT",
+							"type": "command",
+							"key": "T",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Treesitter Highlight"
+						},
+						{
+							"args": " ut",
+							"type": "command",
+							"key": "t",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Treesitter Context"
+						},
+						{
+							"args": " us",
+							"type": "command",
+							"key": "s",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Spelling"
+						},
+						{
+							"args": " uw",
+							"type": "command",
+							"key": "w",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Word Wrap"
+						},
+						{
+							"args": " uz",
+							"type": "command",
+							"key": "z",
+							"command": "vscode-neovim.send",
+							"name": "Toggle Zen Mode"
+						}
+					],
+					"type": "bindings",
+					"name": "+ui",
+					"key": "u"
+				},
+				{
+					"bindings": [
+						{
+							"args": " w-",
+							"type": "command",
+							"key": "-",
+							"command": "vscode-neovim.send",
+							"name": "Split window below"
+						},
+						{
+							"args": " w|",
+							"type": "command",
+							"key": "|",
+							"command": "vscode-neovim.send",
+							"name": "Split window right"
+						},
+						{
+							"args": " ww",
+							"type": "command",
+							"key": "w",
+							"command": "vscode-neovim.send",
+							"name": "Other window"
+						},
+						{
+							"args": " wd",
+							"type": "command",
+							"key": "d",
+							"command": "vscode-neovim.send",
+							"name": "Delete window"
+						}
+					],
+					"type": "bindings",
+					"name": "+windows",
+					"key": "w"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+diagnostics/quickfix",
+					"key": "x"
+				}
+			],
+			"type": "bindings",
+			"name": "+prefix",
+			"key": " "
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Change",
+			"key": "c"
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Delete",
+			"key": "d"
+		},
+		{
+			"bindings": [
+				{
+					"args": "gg",
+					"type": "command",
+					"key": "g",
+					"command": "vscode-neovim.send",
+					"name": "First line"
+				}
+			],
+			"type": "bindings",
+			"name": "+goto",
+			"key": "g"
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Visual Character Mode",
+			"key": "v"
+		},
+		{
+			"bindings": [],
+			"type": "bindings",
+			"name": "+Yank text",
+			"key": "y"
+		},
+		{
+			"bindings": [
+				{
+					"args": "z<CR>",
+					"type": "command",
+					"key": "Cr",
+					"command": "vscode-neovim.send",
+					"name": "Top this line, 1st non-blank col"
+				},
+				{
+					"args": "za",
+					"type": "command",
+					"key": "a",
+					"command": "vscode-neovim.send",
+					"name": "Toggle fold under cursor"
+				},
+				{
+					"args": "zA",
+					"type": "command",
+					"key": "A",
+					"command": "vscode-neovim.send",
+					"name": "Toggle all folds under cursor"
+				},
+				{
+					"args": "zb",
+					"type": "command",
+					"key": "b",
+					"command": "vscode-neovim.send",
+					"name": "Bottom this line"
+				},
+				{
+					"args": "zC",
+					"type": "command",
+					"key": "C",
+					"command": "vscode-neovim.send",
+					"name": "Close all folds under cursor"
+				},
+				{
+					"args": "zc",
+					"type": "command",
+					"key": "c",
+					"command": "vscode-neovim.send",
+					"name": "Close fold under cursor"
+				},
+				{
+					"args": "ze",
+					"type": "command",
+					"key": "e",
+					"command": "vscode-neovim.send",
+					"name": "Right this line"
+				},
+				{
+					"args": "zg",
+					"type": "command",
+					"key": "g",
+					"command": "vscode-neovim.send",
+					"name": "Add word to spell list"
+				},
+				{
+					"args": "zH",
+					"type": "command",
+					"key": "H",
+					"command": "vscode-neovim.send",
+					"name": "Half screen to the left"
+				},
+				{
+					"args": "zi",
+					"type": "command",
+					"key": "i",
+					"command": "vscode-neovim.send",
+					"name": "Toggle folding"
+				},
+				{
+					"args": "zL",
+					"type": "command",
+					"key": "L",
+					"command": "vscode-neovim.send",
+					"name": "Half screen to the right"
+				},
+				{
+					"args": "zM",
+					"type": "command",
+					"key": "M",
+					"command": "vscode-neovim.send",
+					"name": "Close all folds"
+				},
+				{
+					"args": "zm",
+					"type": "command",
+					"key": "m",
+					"command": "vscode-neovim.send",
+					"name": "Fold more"
+				},
+				{
+					"args": "zO",
+					"type": "command",
+					"key": "O",
+					"command": "vscode-neovim.send",
+					"name": "Open all folds under cursor"
+				},
+				{
+					"args": "zo",
+					"type": "command",
+					"key": "o",
+					"command": "vscode-neovim.send",
+					"name": "Open fold under cursor"
+				},
+				{
+					"args": "zr",
+					"type": "command",
+					"key": "r",
+					"command": "vscode-neovim.send",
+					"name": "Fold less"
+				},
+				{
+					"args": "zR",
+					"type": "command",
+					"key": "R",
+					"command": "vscode-neovim.send",
+					"name": "Open all folds"
+				},
+				{
+					"args": "zs",
+					"type": "command",
+					"key": "s",
+					"command": "vscode-neovim.send",
+					"name": "Left this line"
+				},
+				{
+					"args": "zt",
+					"type": "command",
+					"key": "t",
+					"command": "vscode-neovim.send",
+					"name": "Top this line"
+				},
+				{
+					"args": "zv",
+					"type": "command",
+					"key": "v",
+					"command": "vscode-neovim.send",
+					"name": "Show cursor line"
+				},
+				{
+					"args": "zw",
+					"type": "command",
+					"key": "w",
+					"command": "vscode-neovim.send",
+					"name": "Mark word as bad/misspelling"
+				},
+				{
+					"args": "zx",
+					"type": "command",
+					"key": "x",
+					"command": "vscode-neovim.send",
+					"name": "Update folds"
+				},
+				{
+					"args": "zz",
+					"type": "command",
+					"key": "z",
+					"command": "vscode-neovim.send",
+					"name": "Center this line"
+				},
+				{
+					"bindings": [],
+					"type": "bindings",
+					"name": "+Create fold",
+					"key": "f"
+				}
+			],
+			"type": "bindings",
+			"name": "+prefix",
+			"key": "z"
+		}
+	]
 }

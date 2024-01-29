@@ -12,6 +12,19 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+	<ion-list>
+    <ion-item button *ngFor="let item of pokemons" [routerLink]="[item.name]">
+ 
+			<ion-label class="ion-text-wrap">
+				<h3>{{ item.name }}</h3>
+        <p>{{ item.url }}</p>
+      </ion-label>
+ 
+    </ion-item>
+  </ion-list>
+ 
+  <ion-infinite-scroll (ionInfinite)="loadMore($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data..."> </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
